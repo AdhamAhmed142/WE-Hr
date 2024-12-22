@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/white"
+    android:gravity="bottom"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingTop="8dp"
+        app:srcCompat="@drawable/ellipse_12" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="16sp"
+        android:textColor="#59358c"
+        android:text="شادي عبد الله"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="16sp"
+        android:textColor="#59358c"
+        android:text="shady.abdallah@te.eg"
+        android:textStyle="normal"/>
+</LinearLayout>

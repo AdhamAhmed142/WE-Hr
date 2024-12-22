@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeActivity">
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.trial.wehr.HomeActivity"
+        android:label="HomeActivity" />
+    <activity
+        android:id="@+id/perksActivity"
+        android:name="com.trial.wehr.PerksActivity"
+        android:label="Perks"
+        tools:layout="@layout/activity_perks" />
+    <activity
+        android:id="@+id/votesActivity"
+        android:name="com.trial.wehr.VotesActivity"
+        android:label="Votes"
+        tools:layout="@layout/activity_votes" />
+    <activity
+        android:id="@+id/eventsActivity"
+        android:name="com.trial.wehr.EventsActivity"
+        android:label="Events"
+        tools:layout="@layout/activity_events" />
+    <activity
+        android:id="@+id/medicalNetworkActivity"
+        android:name="com.trial.wehr.MedicalNetworkActivity"
+        android:label="MedicalNetwork"
+        tools:layout="@layout/activity_medical_network" />
+    <activity
+        android:id="@+id/surveyActivity"
+        android:name="com.trial.wehr.SurveyActivity"
+        android:label="Survey"
+        tools:layout="@layout/activity_survey" />
+    <activity
+        android:id="@+id/complaintsActivity"
+        android:name="com.trial.wehr.ComplaintsActivity"
+        android:label="Complaints"
+        tools:layout="@layout/activity_complaints" />
+    <activity
+        android:id="@+id/accountSettingsActivity"
+        android:name="com.trial.wehr.AccountSettingsActivity"
+        android:label="AccountSettings"
+        tools:layout="@layout/activity_account_settings" />
+</navigation>

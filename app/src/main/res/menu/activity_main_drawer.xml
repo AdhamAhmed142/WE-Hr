@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/group_253_2"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/nav_perks"
+            android:icon="@drawable/group_253"
+            android:title="المزايا" />
+        <item
+            android:id="@+id/nav_votes"
+            android:icon="@drawable/group_254"
+            android:title="التصويت" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/group_255"
+            android:title="الأحداث" />
+        <item
+            android:id="@+id/nav_medical_network"
+            android:icon="@drawable/group_261"
+            android:title="الشبكة الطبية" />
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/group_267"
+            android:title="الإستبيان والأستطلاع" />
+        <item
+            android:id="@+id/nav_complaints"
+            android:icon="@drawable/group_269"
+            android:title="الشكاوي" />
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/path_1509"
+            android:title="إعدادات الحساب" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/group_273"
+            android:title="تسجيل الخروج" />
+    </group>
+</menu>
